@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="CLI Arguments" tests="3" assertions="3" errors="0" failures="3" skipped="0" time="0.205862">
-    <testsuite name="Tests\Feature\LaravelNyumon\Station4\PracticeTest" file="/var/www/tests/Feature/LaravelNyumon/Station4/PracticeTest.php" tests="3" assertions="3" errors="0" failures="3" skipped="0" time="0.205862">
-      <testcase name="test_Practiceコントローラーが存在する" file="/var/www/tests/Feature/LaravelNyumon/Station4/PracticeTest.php" line="13" class="Tests\Feature\LaravelNyumon\Station4\PracticeTest" classname="Tests.Feature.LaravelNyumon.Station4.PracticeTest" assertions="1" time="0.186062">
+  <testsuite name="CLI Arguments" tests="3" assertions="3" errors="0" failures="3" skipped="0" time="0.166029">
+    <testsuite name="Tests\Feature\LaravelNyumon\Station4\PracticeTest" file="/var/www/tests/Feature/LaravelNyumon/Station4/PracticeTest.php" tests="3" assertions="3" errors="0" failures="3" skipped="0" time="0.166029">
+      <testcase name="test_Practiceコントローラーが存在する" file="/var/www/tests/Feature/LaravelNyumon/Station4/PracticeTest.php" line="13" class="Tests\Feature\LaravelNyumon\Station4\PracticeTest" classname="Tests.Feature.LaravelNyumon.Station4.PracticeTest" assertions="1" time="0.144372">
         <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\LaravelNyumon\Station4\PracticeTest::test_Practiceコントローラーが存在する
 Failed asserting that file "/var/www/tests/Feature/LaravelNyumon/Station4/../../../../app/Http/Controllers/PracticeController.php" exists.
 
 /var/www/tests/Feature/LaravelNyumon/Station4/PracticeTest.php:15</failure>
       </testcase>
-      <testcase name="test_Practiceモデルが存在する" file="/var/www/tests/Feature/LaravelNyumon/Station4/PracticeTest.php" line="20" class="Tests\Feature\LaravelNyumon\Station4\PracticeTest" classname="Tests.Feature.LaravelNyumon.Station4.PracticeTest" assertions="1" time="0.010304">
+      <testcase name="test_Practiceモデルが存在する" file="/var/www/tests/Feature/LaravelNyumon/Station4/PracticeTest.php" line="20" class="Tests\Feature\LaravelNyumon\Station4\PracticeTest" classname="Tests.Feature.LaravelNyumon.Station4.PracticeTest" assertions="1" time="0.011290">
         <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\LaravelNyumon\Station4\PracticeTest::test_Practiceモデルが存在する
 Failed asserting that file "/var/www/tests/Feature/LaravelNyumon/Station4/../../../../app/Models/Practice.php" exists.
 
 /var/www/tests/Feature/LaravelNyumon/Station4/PracticeTest.php:22</failure>
       </testcase>
-      <testcase name="test_Practiceビューが存在する" file="/var/www/tests/Feature/LaravelNyumon/Station4/PracticeTest.php" line="27" class="Tests\Feature\LaravelNyumon\Station4\PracticeTest" classname="Tests.Feature.LaravelNyumon.Station4.PracticeTest" assertions="1" time="0.009496">
+      <testcase name="test_Practiceビューが存在する" file="/var/www/tests/Feature/LaravelNyumon/Station4/PracticeTest.php" line="27" class="Tests\Feature\LaravelNyumon\Station4\PracticeTest" classname="Tests.Feature.LaravelNyumon.Station4.PracticeTest" assertions="1" time="0.010368">
         <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\LaravelNyumon\Station4\PracticeTest::test_Practiceビューが存在する
 Failed asserting that file "/var/www/tests/Feature/LaravelNyumon/Station4/../../../../resources/views/Practice.blade.php" exists.
 
